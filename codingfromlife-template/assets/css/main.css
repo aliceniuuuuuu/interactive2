@@ -79,6 +79,20 @@ body {
 	background-color: silver;
 	border-radius: 0% 0% 50% 50% / 50% 50% 50% 50%;
 	position: relative;
+	border: black solid 3px;
+	top: -150px;
+	left: 2px;
+	z-index: 5;
+}
+
+#handle-2{
+	height:155px;
+	width: 5px;
+	background-color: silver;
+	position: relative;
+	left: 53px;
+	top: -216px;
+	z-index: 3;
 }
 
 #clip {
