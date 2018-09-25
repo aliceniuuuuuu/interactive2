@@ -3,117 +3,395 @@
 	margin: 0px;
 }
 
+#container{
+	width: 100vw;
+	height: 100vh;
+	background-color: #FFF3C3;
+	position: relative;
+}
 
-.continer{
-	height: 120px;
-	width: 120px;
+#specimen{
+	position: absolute;
+	left: 10vw; 
+	top: 5vh;
+	width: 80vw;
+	height: 90vh;
+}
+
+.cube{
+	height: 140px;
+	width: 140px;
+}
+
+.letter{
+	height: 130px;
+	width: 130px;
+	border: #FFF3C3 solid 5px;
+	border-radius: 5px;
+	position: relative;
+	background-color: #A8D182;
 }
 
 .A{
 	position: absolute;
-	top: 50px;
-	left: 50px;
-}
-
-.letter{
-	top: 10px;
-	left: 10px;
-	height: 100px;
-	width: 100px;
-	border: black solid 5px;
-	border-radius: 5px;
-	position: relative;
-}
+	top: 0;
+	left:0;}
 
 .B{
 	position: absolute;
-	top: 50px;
-	left: 200px;
+	top: 0;
+	left: 135px;
 }
 
 .C{
 	position: absolute;
-	top: 50px;
-	left: 350px;
+	top: 0;
+	left: 270px;
 }
 
 .D{
 	position: absolute;
-	top: 50px;
-	left: 500px;
+	top: 0;
+	left: 405px;
+}
+
+.E{
+	position: absolute;
+	top: 0;
+	left: 540px;
+}
+
+.F{
+	position: absolute;
+	top: 0;
+	left: 675px;
+}
+
+.G{
+	position: absolute;
+	top: 135px;
+	left: 0;
+}
+
+.H{
+	position: absolute;
+	top: 135px;
+	left: 135px;
+}
+
+.I{
+	position: absolute;
+	top: 135px;
+	left: 270px;
+}
+
+#J{
+	position: absolute;
+	top: 135px;
+	left: 405px;
+	height: 140px;
+	width: 140px;
+}
+
+div#J :hover{
+	border-radius: 0px 0px 60px 0px;
+-moz-border-radius: 0px 0px 60px 0px;
+-webkit-border-radius: 0px 0px 60px 0px;
+}
+
+.K{
+	position: absolute;
+	top: 135px;
+	left: 540px;
+}
+
+#L{
+	position: absolute;
+	top: 135px;
+	left: 675px;
+	height: 140px;
+	width: 140px;
+}
+
+div#L :hover{
+	border-radius: 0px 0px 0px 60px;
+-moz-border-radius: 0px 0px 0px 60px;
+-webkit-border-radius: 0px 0px 0px 60px;
+}
+
+.M{
+	position: absolute;
+	top: 135px;
+	left: 810px;
+}
+
+.N{
+	position: absolute;
+	top: 270px;
+	left: 0px;
+}
+
+#O{
+	position: absolute;
+	top: 270px;
+	left: 135px;
+	height: 140px;
+	width: 140px;
+}
+
+div#O :hover{
+	border-radius: 40px 40px 40px 40px;
+	-moz-border-radius: 40px 40px 40px 40px;
+	-webkit-border-radius: 40px 40px 40px 40px;
+}
+
+.P{
+	position: absolute;
+	top: 270px;
+	left: 270px;
+}
+
+.Q{
+	position: absolute;
+	top: 270px;
+	left: 405px;
+	height: 140px;
+	width: 140px;
+}
+
+div.Q :hover{
+	border-radius: 40px 40px 0px 40px;
+	-moz-border-radius: 40px 40px 0px 40px;
+	-webkit-border-radius: 40px 40px 0px 40px;
+}
+
+.R{
+	position: absolute;
+	top: 270px;
+	left: 540px;
+}
+
+.S{
+	position: absolute;
+	top: 270px;
+	left: 675px;
+}
+
+.T{
+	position: absolute;
+	top: 405px;
+	left: 0px;
+}
+
+.U{
+	position: absolute;
+	top: 405px;
+	left: 135px;
+}
+
+.V{
+	position: absolute;
+	top: 405px;
+	left: 270px;
+}
+
+.W{
+	position: absolute;
+	top: 405px;
+	left: 405px;
+}
+
+.X{
+	position: absolute;
+	top: 405px;
+	left: 540px;
+}
+
+.Y{
+	position: absolute;
+	top: 405px;
+	left: 675px;
+}
+
+.Z{
+	position: absolute;
+	top: 405px;
+	left: 810px;
 }
 
 	/*https://css-tricks.com/examples/ShapesOfCSS/*/
-.triangle{
+#triangle-up{
 	width: 0;
 	height: 0;
-	border-left: 10px solid transparent;
-	border-right: 10px solid transparent;
-	border-bottom: 20px solid black;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-bottom: 24px solid #FFF3C3;
 	border-radius: 2px;
 }
 
-.semicircle-curveup{
-	height: 15px;
-	width: 20px;
-	background-color: black;
-	border-radius: 60% 60% 0% 0% / 100% 100% 0% 0%
+#triangle-down{
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 18px solid #FFF3C3;
+	border-radius: 2px;
 }
 
-.semicircle-curveright{
-	height: 20px;
-	width: 15px;
-	background-color: black;
-	border-radius: 0% 100% 100% 0% / 0% 60% 60% 0%
+#triangle-left{
+	width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-right: 24px solid #FFF3C3;
+	border-bottom: 12px solid transparent;
+	border-radius: 2px;
 }
 
-.semicircle-curveleft{
-	height: 20px;
-	width: 15px;
-	background-color: black;
-	border-radius: 100% 0% 0% 100% / 60% 0% 0% 60%
+#triangle-right{
+	width: 0;
+	height: 0;
+	border-top: 14px solid transparent;
+	border-left: 24px solid #FFF3C3;
+	border-bottom: 12px solid transparent;
+	border-radius: 2px;
 }
 
-.semicircle-curvedown{
-	height: 15px;
-	width: 20px;
-	background-color: black;
-	border-radius: 0% 0% 60% 60% / 0% 0% 100% 100%
+#semicircle-curveup{
+	height: 18px;
+	width: 24px;
+	background-color: #FFF3C3;
+	border-radius: 60% 60% 0% 0% / 100% 100% 0% 0%;
+}
+
+#semicircle-curveright{
+	height: 24px;
+	width: 18px;
+	background-color: #FFF3C3;
+	border-radius: 0% 100% 100% 0% / 0% 60% 60% 0%;
+}
+
+#semicircle-curveleft{
+	height: 24px;
+	width: 18px;
+	background-color: #FFF3C3;
+	border-radius: 100% 0% 0% 100% / 60% 0% 0% 60%;
+}
+
+#semicircle-curvedown{
+	height: 18px;
+	width: 24px;
+	background-color: #FFF3C3;
+	border-radius: 0% 0% 60% 60% / 0% 0% 100% 100%;
+}
+
+#quarter-circle-1{
+	height: 24px;
+	width: 18px;
+	background-color: #FFF3C3;
+	border-radius: 90% 0% 0% 0% / 90% 0% 0% 10%;
+}
+
+#quarter-circle-2{
+	height: 24px;
+	width: 18px;
+	background-color: #FFF3C3;
+	border-radius: 0% 0% 90% 0% / 0% 10% 90% 0%;
+}
+
+#quarter-circle-2-special{
+	height: 36px;
+	width: 27px;
+	background-color: #FFF3C3;
+	border-radius: 0% 0% 90% 0% / 0% 10% 90% 0%;
+}
+
+#quarter-circle-3{
+	height: 24px;
+	width: 18px;
+	background-color: #FFF3C3;
+	border-radius: 0% 0% 0% 90% / 10% 0% 0% 90%;
+}
+
+#quarter-circle-3-special{
+	height: 36px;
+	width: 27px;
+	background-color: #FFF3C3;
+	border-radius: 0% 0% 0% 90% / 10% 0% 0% 90%;
+}
+
+#quarter-circle-4{
+	height: 24px;
+	width: 18px;
+	background-color: #FFF3C3;
+	border-radius: 0% 90% 0% 0% / 0% 90% 10% 0%;
+}
+
+#circle{
+	height: 40px;
+	width: 40px;
+	background-color: #FFF3C3;
+	border-radius: 100%;
+}
+
+#square{
+	height: 25px;
+	width: 25px;
+	background-color: #FFF3C3;
 }
 
 .center{
-	position: relative;
-	top: 50px;
-	left: 40px;
-}
-
-.bottom-center{
-	position: relative;
-	top: 70px;
-	left: 40px;
-}
-
-.left-up{
-	position: relative;
-	top: 40px;
-	left: 30px;
-}
-
-.left-center{
-	position: relative;
+	position: absolute;
 	top: 60px;
-	left: 30px;
+	left: 70px;
 }
 
-.left-down{
-	position: relative;
-	top: 50px;
-	left: 30px;
+.top{top: 0;}
+.top-2{top: 20px;}
+.bottom{top: 112px;}
+.bottom-2{top:100px;}
+.center-1{top: 90px;}
+.center-2{top: 60px;}
+.center-3{top: 75px;}
+.center-4{top: 40px;}
+.corner{top: 106px;}
+
+
+
+.left{
+	position: absolute;
+
+	left: 50px;
 }
 
-.right-center{
-	position: relative;
-	top: 50px;
+.left-edge{
+	position: absolute;
+	left: 0px;
+}
+
+.right{
+	position: absolute;
 	left: 85px;
 }
+
+.right-edge-semi{
+	position: absolute;
+	left: 112px;
+}
+
+.right-edge-bigsemi{
+	position: absolute;
+	left: 103px;
+}
+
+.right-edge-tri{
+	position: relative;
+	left: 106px;
+}
+
+.right-edge-squ{
+	position: absolute;
+	left: 105px;
+}
+
+
 
