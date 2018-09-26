@@ -382,6 +382,13 @@ div#Y :hover{
 	border-radius: 90% 0% 0% 0% / 90% 0% 0% 10%;
 }
 
+#quarter-circle-1-special{
+	height: 36px;
+	width: 27px;
+	background-color: #FFF3C3;
+	border-radius: 90% 0% 0% 0% / 90% 0% 0% 10%;
+}
+
 #quarter-circle-2{
 	height: 24px;
 	width: 18px;
@@ -418,8 +425,8 @@ div#Y :hover{
 }
 
 #circle{
-	height: 40px;
-	width: 40px;
+	height: 25px;
+	width: 25px;
 	background-color: #FFF3C3;
 	border-radius: 100%;
 }
@@ -437,6 +444,12 @@ div#Y :hover{
 	background-color: #FFF3C3;
 }
 
+#square-sm{
+	height: 15px;
+	width: 15px;
+	background-color: #A8D182;
+}
+
 .center{
 	position: absolute;
 	top: 60px;
@@ -449,9 +462,10 @@ div#Y :hover{
 .bottom-2{top:100px;}
 .bottom-3{top: 115px;}
 .center-1{top: 90px;}
-.center-2{top: 60px;}
+.center-2{top: 55px;}
 .center-3{top: 65px;}
 .center-4{top: 40px;}
+.center-5{top: 77px;}
 .corner{top: 106px;}
 
 
@@ -497,6 +511,11 @@ div#Y :hover{
 	left: 105px;
 }
 
+.right-edge-squ-sm{
+	position: absolute;
+	left: 115px;
+}
+
 .two{
 	position: absolute;
 	top: 0;
@@ -514,3 +533,19 @@ div#Y :hover{
 	top: 0;
 	left: 405px;
 }
+
+.five{
+	position: absolute;
+	top: 0;
+	left: 540px;
+}
+
+.six{
+	position: absolute;
+	top: 0;
+	left: 675px;
+}
+
+
+
+
