@@ -364,6 +364,12 @@ div#Y :hover{
 	background-color: #FFF3C3;
 }
 
+#rectangular-3{
+	height: 12px;
+	width: 50px;
+	background-color: #FFF3C3;
+}
+
 #semicircle-curveup{
 	height: 18px;
 	width: 24px;
