@@ -12,7 +12,7 @@
 
 #display{
 	position: absolute;
-	left: 20vw; 
+	left: 15vw; 
 	top: 5vh;
 	width: 80vw;
 	height: 90vh;
@@ -40,7 +40,7 @@
 
 #display-s-1{
 	position: absolute;
-	left: 185px;
+	left: 180px;
 	top: 270px;
 }
 
@@ -100,6 +100,15 @@ div#L-display :hover{
 .letter{
 	height: 130px;
 	width: 130px;
+	border: #FFF3C3 solid 5px;
+	border-radius: 5px;
+	position: relative;
+	background-color: #A8D182;
+}
+
+.mark{
+	height: 130px;
+	width: 65px;
 	border: #FFF3C3 solid 5px;
 	border-radius: 5px;
 	position: relative;
@@ -317,6 +326,14 @@ div#Y :hover{
 	border-top: 18px solid #FFF3C3;
 }
 
+#triangle-down-lg{
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 40px solid #FFF3C3;
+}
+
 #triangle-left{
 	width: 0;
 	height: 0;
@@ -337,12 +354,12 @@ div#Y :hover{
 
 #rectangular{
 	height: 50px;
-	width: 15px;
+	width: 12px;
 	background-color: #FFF3C3;
 }
 
 #rectangular-2{
-	height: 15px;
+	height: 12px;
 	width: 50px;
 	background-color: #FFF3C3;
 }
@@ -425,8 +442,8 @@ div#Y :hover{
 }
 
 #circle{
-	height: 25px;
-	width: 25px;
+	height: 35px;
+	width: 35px;
 	background-color: #FFF3C3;
 	border-radius: 100%;
 }
@@ -458,9 +475,10 @@ div#Y :hover{
 
 .top{top: 0;}
 .top-2{top: 20px;}
+.top-3{top: -5px;}
 .bottom{top: 112px;}
 .bottom-2{top:100px;}
-.bottom-3{top: 115px;}
+.bottom-3{top: 118px;}
 .center-1{top: 90px;}
 .center-2{top: 55px;}
 .center-3{top: 65px;}
@@ -484,6 +502,11 @@ div#Y :hover{
 .left-bleed{
 	position: absolute;
 	left: -5px;
+}
+
+.left-bleed-2{
+	position: absolute;
+	left: -25px;
 }
 
 .right{
@@ -514,6 +537,17 @@ div#Y :hover{
 .right-edge-squ-sm{
 	position: absolute;
 	left: 115px;
+}
+
+.right-edge-rec{
+	position: absolute;
+	left: 80px;
+}
+
+.one{
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .two{
@@ -547,5 +581,32 @@ div#Y :hover{
 }
 
 
+.seven{
+	position: absolute;
+	top: 135px;
+	left: 0;
+}
 
+.eight{
+	position: absolute;
+	top: 135px;
+	left: 135px;
+}
 
+.nine{
+	position: absolute;
+	top: 135px;
+	left: 270px;
+}
+
+.zero{
+	position: absolute;
+	top: 135px;
+	left: 405px;
+}
+
+.question{
+	position: absolute;
+	top: 350px;
+	left: 0;
+}
