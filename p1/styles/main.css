@@ -242,11 +242,11 @@ div#O :hover{
 	width: 140px;
 }
 
-div.Q :hover{
+/*div.Q :hover{
 	border-radius: 40px 40px 0px 40px;
 	-moz-border-radius: 40px 40px 0px 40px;
 	-webkit-border-radius: 40px 40px 0px 40px;
-}
+}*/
 
 .R{
 	position: absolute;
@@ -349,129 +349,114 @@ div#Y :hover{
 	border-top: 12px solid transparent;
 	border-left: 20px solid #FFF3C3;
 	border-bottom: 12px solid transparent;
-
 }
 
 #rectangular{
 	height: 50px;
 	width: 12px;
-	background-color: #FFF3C3;
 }
 
 #rectangular-2{
 	height: 12px;
 	width: 50px;
-	background-color: #FFF3C3;
 }
 
 #rectangular-3{
 	height: 12px;
-	width: 50px;
-	background-color: #FFF3C3;
+	width: 65px;
 }
 
 #semicircle-curveup{
 	height: 18px;
 	width: 24px;
-	background-color: #FFF3C3;
 	border-radius: 60% 60% 0% 0% / 100% 100% 0% 0%;
 }
 
 #semicircle-curveright{
 	height: 24px;
 	width: 18px;
-	background-color: #FFF3C3;
 	border-radius: 0% 100% 100% 0% / 0% 60% 60% 0%;
 }
 
 #semicircle-curveleft{
 	height: 24px;
 	width: 18px;
-	background-color: #FFF3C3;
 	border-radius: 100% 0% 0% 100% / 60% 0% 0% 60%;
 }
 
 #semicircle-curvedown{
 	height: 18px;
 	width: 24px;
-	background-color: #FFF3C3;
 	border-radius: 0% 0% 60% 60% / 0% 0% 100% 100%;
 }
 
 #quarter-circle-1{
 	height: 24px;
 	width: 18px;
-	background-color: #FFF3C3;
 	border-radius: 90% 0% 0% 0% / 90% 0% 0% 10%;
 }
 
 #quarter-circle-1-special{
 	height: 36px;
 	width: 27px;
-	background-color: #FFF3C3;
 	border-radius: 90% 0% 0% 0% / 90% 0% 0% 10%;
 }
 
 #quarter-circle-2{
 	height: 24px;
 	width: 18px;
-	background-color: #FFF3C3;
 	border-radius: 0% 0% 90% 0% / 0% 10% 90% 0%;
 }
 
 #quarter-circle-2-special{
 	height: 36px;
 	width: 27px;
-	background-color: #FFF3C3;
 	border-radius: 0% 0% 90% 0% / 0% 10% 90% 0%;
 }
 
 #quarter-circle-3{
 	height: 24px;
 	width: 18px;
-	background-color: #FFF3C3;
 	border-radius: 0% 0% 0% 90% / 10% 0% 0% 90%;
 }
 
 #quarter-circle-3-special{
 	height: 36px;
 	width: 27px;
-	background-color: #FFF3C3;
 	border-radius: 0% 0% 0% 90% / 10% 0% 0% 90%;
 }
 
 #quarter-circle-4{
 	height: 24px;
 	width: 18px;
-	background-color: #FFF3C3;
 	border-radius: 0% 90% 0% 0% / 0% 90% 10% 0%;
 }
 
 #circle{
 	height: 35px;
 	width: 35px;
-	background-color: #FFF3C3;
 	border-radius: 100%;
 }
 
 #circle-sm{
 	height: 30px;
 	width: 30px;
-	background-color: #FFF3C3;
 	border-radius: 100%;
 }
 
 #square{
 	height: 25px;
 	width: 25px;
-	background-color: #FFF3C3;
 }
 
 #square-sm{
 	height: 15px;
 	width: 15px;
-	background-color: #A8D182;
+	
 }
+
+.green{background-color: #A8D182;}
+.yellow{background-color: #FFF3C3;}
 
 .center{
 	position: absolute;
@@ -485,6 +470,7 @@ div#Y :hover{
 .bottom{top: 112px;}
 .bottom-2{top:100px;}
 .bottom-3{top: 118px;}
+.bottom-4{top: 95px;}
 .center-1{top: 90px;}
 .center-2{top: 55px;}
 .center-3{top: 65px;}
@@ -517,7 +503,7 @@ div#Y :hover{
 
 .right{
 	position: absolute;
-	left: 85px;
+	left: 87px;
 }
 
 .right-edge-semi{
