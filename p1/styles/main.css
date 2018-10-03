@@ -7,86 +7,190 @@
 	width: 100vw;
 	height: 100vh;
 	background-color: #FFF3C3;
-	position: relative;
+	position: absolute;
+}
+
+#container.page2 {
+	top:100vh;
+}
+#container-g.page3 {
+	top:200vh;
+}
+#container.page4 {
+	top:300vh;
+}
+
+
+
+#container.page1.lock, #container.page2.lock, #container-g.page3.lock, #container.page4.lock {
+	position: fixed;
+	top:0;
+	left:0;
+}
+
+
+
+
+#container-g{
+	width: 100vw;
+	height: 100vh;
+	background-color: #A8D182;
+	position: absolute;
 }
 
 #display{
 	position: absolute;
-	left: 15vw; 
+	left: 6vw; 
 	top: 5vh;
 	width: 80vw;
 	height: 90vh;
 }
 
-.button{
+
+#T-display{
 	position: absolute;
-	left: 450px;
-	top: 270px;
+	left: 135px;
+	top: 220px;
 }
 
-#red{background-color: #EE7B6D;}
-
-#display-u-1{
+#U-display{
 	position: absolute;
-	left: 315px;
-	top: 270px;
+	left: 270px;
+	top: 220px;
 }
 
-#display-u-2{
+#M-display{
 	position: absolute;
-	left: 585px;
-	top: 270px;
+	left: 405px;
+	top: 220px;
 }
 
-#display-s-1{
+#B-display{
 	position: absolute;
-	left: 180px;
-	top: 270px;
-}
-
-#display-s-2{
-	position: absolute;
-	left: 720px;
-	top: 270px;
+	left: 540px;
+	top: 220px;
 }
 
 #L-display{
 	position: absolute;
-	top: 0px;
-	left: 450px;
-	height: 140px;
-	width: 140px;
-}
-
-div#L-display :hover{
-	border-radius: 0px 0px 0px 60px;
--moz-border-radius: 0px 0px 0px 60px;
--webkit-border-radius: 0px 0px 0px 60px;
+	left: 675px;
+	top: 220px;
 }
 
 #E-display{
 	position: absolute;
-	left: 450px;
-	top: 135px;
+	left: 810px;
+	top: 220px;
 }
 
-#O-display{
-	position: absolute;
-	top: 405px;
-	left: 450px;
+
+
+
+/*displayed typeface*/
+/*code from: https://codepen.io/vavik96/pen/waBgya*/
+/* Wobble Vertical */
+@-webkit-keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-120px);
+    transform: translateY(-120px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
+
+@keyframes hvr-wobble-vertical {
+  16.65% {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+  }
+
+  33.3% {
+    -webkit-transform: translateY(-120px);
+    transform: translateY(-120px);
+  }
+
+  49.95% {
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+  }
+
+  66.6% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  83.25% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.hvr-wobble-vertical {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer;
+}
+.hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
+  -webkit-animation-name: hvr-wobble-vertical;
+  animation-name: hvr-wobble-vertical;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+
+
 
 #specimen{
 	position: absolute;
-	left: 10vw; 
+	left: 12vw; 
 	top: 5vh;
 	width: 80vw;
 	height: 90vh;
 }
 
+
 #numbers{
 	position: absolute;
-	left: 10vw; 
+	left: 12vw; 
 	top: 10vh;
 	width: 80vw;
 	height: 90vh;
@@ -95,6 +199,11 @@ div#L-display :hover{
 .cube{
 	height: 140px;
 	width: 140px;
+}
+
+.rec{
+	height: 140px;
+	width: 75px;
 }
 
 .letter{
@@ -106,6 +215,15 @@ div#L-display :hover{
 	background-color: #A8D182;
 }
 
+.outline{
+	height: 130px;
+	width: 130px;
+	border: #A8D182 solid 5px;
+	border-radius: 5px;
+	position: relative;
+	background-color: #FFF3C3;
+}
+
 .mark{
 	height: 130px;
 	width: 65px;
@@ -115,6 +233,10 @@ div#L-display :hover{
 	background-color: #A8D182;
 }
 
+
+
+
+/*letters*/
 .A{
 	position: absolute;
 	top: 0;
@@ -152,26 +274,26 @@ div#L-display :hover{
 
 .G{
 	position: absolute;
-	top: 135px;
-	left: 0;
+	top: opx;
+	left: 810px;
 }
 
 .H{
 	position: absolute;
 	top: 135px;
-	left: 135px;
+	left: 0px;
 }
 
 .I{
 	position: absolute;
 	top: 135px;
-	left: 270px;
+	left: 135px;
 }
 
 #J{
 	position: absolute;
 	top: 135px;
-	left: 405px;
+	left: 270px;
 	height: 140px;
 	width: 140px;
 }
@@ -185,13 +307,13 @@ div#J :hover{
 .K{
 	position: absolute;
 	top: 135px;
-	left: 540px;
+	left: 405px;
 }
 
 #L{
 	position: absolute;
 	top: 135px;
-	left: 675px;
+	left: 540px;
 	height: 140px;
 	width: 140px;
 }
@@ -205,19 +327,19 @@ div#L :hover{
 .M{
 	position: absolute;
 	top: 135px;
-	left: 810px;
+	left: 675px;
 }
 
 .N{
 	position: absolute;
-	top: 270px;
-	left: 0px;
+	top: 135px;
+	left: 810px;
 }
 
 #O{
 	position: absolute;
 	top: 270px;
-	left: 135px;
+	left: 0px;
 	height: 140px;
 	width: 140px;
 }
@@ -231,13 +353,13 @@ div#O :hover{
 .P{
 	position: absolute;
 	top: 270px;
-	left: 270px;
+	left: 135px;
 }
 
 .Q{
 	position: absolute;
 	top: 270px;
-	left: 405px;
+	left: 270px;
 	height: 140px;
 	width: 140px;
 }
@@ -251,49 +373,49 @@ div#O :hover{
 .R{
 	position: absolute;
 	top: 270px;
-	left: 540px;
+	left: 405px;
 }
 
 .S{
 	position: absolute;
 	top: 270px;
-	left: 675px;
+	left: 540px;
 }
 
 .T{
 	position: absolute;
-	top: 405px;
-	left: 0px;
+	top: 270px;
+	left: 675px;
 }
 
 .U{
 	position: absolute;
-	top: 405px;
-	left: 135px;
+	top: 270px;
+	left: 810px;
 }
 
 .V{
 	position: absolute;
 	top: 405px;
-	left: 270px;
+	left: 0px;
 }
 
 .W{
 	position: absolute;
 	top: 405px;
-	left: 405px;
+	left: 135px;
 }
 
 .X{
 	position: absolute;
 	top: 405px;
-	left: 540px;
+	left: 270px;
 }
 
 #Y{
 	position: absolute;
 	top: 405px;
-	left: 675px;
+	left: 405px;
 }
 
 div#Y :hover{
@@ -305,9 +427,12 @@ div#Y :hover{
 .Z{
 	position: absolute;
 	top: 405px;
-	left: 810px;
+	left: 540px;
 }
 
+
+
+/*shapes*/
 	/*https://css-tricks.com/examples/ShapesOfCSS/*/
 #triangle-up{
 	width: 0;
@@ -351,9 +476,59 @@ div#Y :hover{
 	border-bottom: 12px solid transparent;
 }
 
+#triangle-up-g{
+	width: 0;
+	height: 0;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	border-bottom: 24px solid #A8D182;
+	border-radius: 2px;
+}
+
+#triangle-down-g{
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-top: 18px solid #A8D182;
+}
+
+#triangle-down-lg-g{
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 40px solid #A8D182;
+}
+
+#triangle-left-g{
+	width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-right: 20px solid #A8D182;
+	border-bottom: 12px solid transparent;
+
+}
+
+#triangle-right-g{
+	width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-left: 20px solid #A8D182;
+	border-bottom: 12px solid transparent;
+}
+
+#triangle-down-sm-g{
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 15px solid #A8D182;
+}
+
 #rectangular{
 	height: 50px;
-	width: 12px;
+	width: 13px;
 }
 
 #rectangular-2{
@@ -364,6 +539,11 @@ div#Y :hover{
 #rectangular-3{
 	height: 12px;
 	width: 65px;
+}
+
+#rectangular-4{
+	height: 65px;
+	width: 12px;
 }
 
 #semicircle-curveup{
@@ -449,6 +629,11 @@ div#Y :hover{
 	width: 25px;
 }
 
+#square-md{
+	height: 18px;
+	width: 18px;
+}
+
 #square-sm{
 	height: 15px;
 	width: 15px;
@@ -458,33 +643,39 @@ div#Y :hover{
 .green{background-color: #A8D182;}
 .yellow{background-color: #FFF3C3;}
 
-.center{
-	position: absolute;
-	top: 60px;
-	left: 70px;
-}
 
+/*positions*/
 .top{top: 0;}
 .top-2{top: 20px;}
+.top-4{top: 23px;}
 .top-3{top: -5px;}
-.bottom{top: 112px;}
+.bottom{bottom: 0;}
 .bottom-2{top:100px;}
 .bottom-3{top: 118px;}
 .bottom-4{top: 95px;}
+.bottom-5{top: 85px;}
 .center-1{top: 90px;}
 .center-2{top: 55px;}
 .center-3{top: 65px;}
 .center-4{top: 40px;}
 .center-5{top: 77px;}
-.corner{top: 106px;}
+.corner{bottom: -14px;}
 
-
+.center{
+	position: absolute;
+	left: 70px;
+}
 
 .left{
 	position: absolute;
 
 	left: 50px;
 }
+
+.left-2{position: absolute; left: 35px;}
+.left-3{position: absolute; left: 20px;}
+.left-4{position: absolute; left: 40px;}
+
 
 .left-edge{
 	position: absolute;
@@ -506,36 +697,19 @@ div#Y :hover{
 	left: 87px;
 }
 
-.right-edge-semi{
+.right-2{
 	position: absolute;
-	left: 112px;
+	right: 35px;
 }
 
-.right-edge-bigsemi{
+.right-edge{
 	position: absolute;
-	left: 103px;
+	right: 0;
 }
 
-.right-edge-tri{
-	position: relative;
-	left: 110px;
-}
 
-.right-edge-squ{
-	position: absolute;
-	left: 105px;
-}
 
-.right-edge-squ-sm{
-	position: absolute;
-	left: 115px;
-}
-
-.right-edge-rec{
-	position: absolute;
-	left: 80px;
-}
-
+/*numbers*/
 .one{
 	position: absolute;
 	top: 0;
@@ -602,3 +776,47 @@ div#Y :hover{
 	top: 350px;
 	left: 0;
 }
+
+.exclamation{
+	position: absolute;
+	top: 350px;
+	left: 70px;
+}
+
+.colon{
+	position: absolute;
+	top: 350px;
+	left: 140px;
+}
+
+#puntuation{background-color: #FFF3C3; }
+
+.comma{
+	position: absolute;
+	top: 350px;
+	left: 210px;
+}
+
+.period{
+	position: absolute;
+	top: 350px;
+	left: 280px;
+}
+
+.quotation-L{
+	position: absolute;
+	top: 350px;
+	left: 350px;
+}
+
+.quotation-R{
+	position: absolute;
+	top: 350px;
+	left: 440px;
+}
+
+
+
+
+
+
