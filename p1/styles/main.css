@@ -885,8 +885,10 @@ div#Y :hover{
 .column-9{left: 540px;}
 .column-10{left: 607.5px;}
 .column-11{left: 675px;}
-.column-12{left: 742.5px; z-index: 100;}
+.column-12{left: 742.5px;}
 .column-13{left: 810px;}
+
+#topp{z-index: 100;}
 
 
 
