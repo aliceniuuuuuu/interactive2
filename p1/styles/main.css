@@ -28,7 +28,7 @@
 
 
 
-#container.page1.lock, #container.page2.lock, #container-g.page3.lock, #container.page4.lock, #container.page5.lock {
+#container.page1.lock, #container.page2.lock, #container-g.page3.lock, #container.page4.lock, #container-g.page5.lock, #container.page6.lock{
 	position: fixed;
 	top:0;
 	left:0;

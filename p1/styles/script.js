@@ -17,7 +17,8 @@ let pageOne = document.querySelector('.page1')
 let pageTwo = document.querySelector('.page2')
 let pageThree = document.querySelector('.page3')
 let pageFour = document.querySelector('.page4')
-
+let pageFive = document.querySelector('.page5')
+let pageSix = document.querySelector('.page6')
 
 
 window.requestAnimationFrame(draw)
@@ -47,6 +48,18 @@ function draw(){
   	 pageFour.classList.add('lock')
   } else {
   	pageFour.classList.remove('lock')
+  }
+
+  if(scrollPosition > window.innerHeight * 4 && scrollPosition < window.innerHeight * 5){
+  	 pageFive.classList.add('lock')
+  } else {
+  	pageFive.classList.remove('lock')
+  }
+
+  if(scrollPosition > window.innerHeight * 5 && scrollPosition < window.innerHeight * 6){
+  	 pageSix.classList.add('lock')
+  } else {
+  	pageSix.classList.remove('lock')
   }
 
   
