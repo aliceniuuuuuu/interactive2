@@ -16,6 +16,7 @@ window.addEventListener('scroll',function(){
 let pageOne = document.querySelector('.page1')
 let pageTwo = document.querySelector('.page2')
 let pageThree = document.querySelector('.page3')
+let pageFour = document.querySelector('.page4')
 
 
 
@@ -40,6 +41,12 @@ function draw(){
   	 pageThree.classList.add('lock')
   } else {
   	pageThree.classList.remove('lock')
+  }
+
+  if(scrollPosition > window.innerHeight * 3 && scrollPosition < window.innerHeight * 4){
+  	 pageFour.classList.add('lock')
+  } else {
+  	pageFour.classList.remove('lock')
   }
 
   
