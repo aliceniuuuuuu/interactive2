@@ -1,0 +1,115 @@
+/* div{
+    background-image:url("Interactive2_Project2_Apple1.png");
+    position:relative;
+} */
+
+body{
+  margin: 0;
+  background:#BFCBC1;
+  width:inherit;
+  height:inherit;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
+}
+.item{
+/* position: absolute; */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+.Apple{
+  width:30%;
+  height:auto;
+  cursor: pointer;
+}
+
+.four-pc{
+  width:20%;
+  height: auto;
+  cursor: pointer;
+}
+
+#two-row{
+  width:800px;
+  height:400px;
+  background-image:url("https://cdn.glitch.com/e957ac3b-e9d7-4ce2-b3ab-42d7471d8786%2FInteractive2_Project2_Apple'-14.png?1539908133840");
+  background-size:200px 200px;
+}
+
+#four-row{
+  width:600px;
+  height:600px;
+  background-image:url("https://cdn.glitch.com/e957ac3b-e9d7-4ce2-b3ab-42d7471d8786%2FInteractive2_Project2_Apple'-14.png?1539908133840");
+  background-size:150px 150px;
+}
+
+#four-row-2{
+  width:1200px;
+  height:600px;
+  background-image:url("https://cdn.glitch.com/e957ac3b-e9d7-4ce2-b3ab-42d7471d8786%2FInteractive2_Project2_Apple'-14.png?1539908133840");
+  background-size:150px 150px;
+}
+
+
+#four-row-3{
+  width:1200px;
+  height:600px;
+  background-image:url("https://cdn.glitch.com/e957ac3b-e9d7-4ce2-b3ab-42d7471d8786%2FInteractive2_Project2_Apple'-15.png?1539908134017");
+  background-size:150px 150px;
+}
+
+#four-row-4{
+  width:1200px;
+  height:600px;
+  background-image:url("https://cdn.glitch.com/e957ac3b-e9d7-4ce2-b3ab-42d7471d8786%2FInteractive2_Project2_Apple'-18.png?1539908134167");
+  background-size:150px 150px;
+}
+
+#four-row-5{
+  width:1200px;
+  height:600px;
+  background-image:url("https://cdn.glitch.com/e957ac3b-e9d7-4ce2-b3ab-42d7471d8786%2FInteractive2_Project2_Apple'-19.png?1539908134438");
+  background-size:150px 150px;
+}
+
+#four-row-6{
+  width:1200px;
+  height:600px;
+  background-image:url("https://cdn.glitch.com/e957ac3b-e9d7-4ce2-b3ab-42d7471d8786%2FInteractive2_Project2_Apple'-20.png?1539908134665");
+  background-size:150px 150px;
+}
+
+#four-row-7{
+  width:1200px;
+  height:600px;
+  background-image:url("https://cdn.glitch.com/e957ac3b-e9d7-4ce2-b3ab-42d7471d8786%2FInteractive2_Project2_Apple'-21.png?1539908134981");
+  background-size:150px 150px;
+}
+
+#four-row-8{
+  width:1200px;
+  height:600px;
+  background-image:url("https://cdn.glitch.com/e957ac3b-e9d7-4ce2-b3ab-42d7471d8786%2FInteractive2_Project2_Apple'-22.png?1539908135062");
+  background-size:150px 150px;
+}
+
+
+#four-row-9{
+  width:1200px;
+  height:600px;
+  background-image:url("https://cdn.glitch.com/e957ac3b-e9d7-4ce2-b3ab-42d7471d8786%2FInteractive2_Project2_Apple'-23.png?1539908135198");
+  background-size:150px 150px;
+}
+
+#four-row-10{
+  width:1200px;
+  height:600px;
+  background-image:url("https://cdn.glitch.com/e957ac3b-e9d7-4ce2-b3ab-42d7471d8786%2FInteractive2_Project2_Apple-23.png?1539908133439");
+  background-size:150px 150px;
+}
+
