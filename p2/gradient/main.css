@@ -1,0 +1,19 @@
+html, body, div, p {
+    margin:0; 
+    padding:0; 
+    overflow: hidden;
+    background-color: rgb(255,255,255);
+}
+
+.box {
+    width: 100px; 
+    height: 100px; 
+    padding: 1em; 
+    position:absolute; 
+    background-color:white; 
+    border:solid 1px;
+}
+
+    .box1 {top:30%; left:25%; z-index:10;}
+    .box2 {top:30%; left:45%; z-index:20;}
+    .box3 {top:30%; left:65%; z-index:30;}
