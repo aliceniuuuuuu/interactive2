@@ -10,15 +10,16 @@ let body = document.getElementByClass("red");
 var output1 = document.getElementById("output1");
 
 red.addEventListener('click',function(){
-	var r = Math.floor(Math.random()*256);
-	document.body.style.backgroundColor = resultColorR;
+	
 }) 
 
-          // Random between 0-255
+function getRandom(){
+	
+}
+var r = Math.floor(Math.random()*256);         // Random between 0-255
 var g = Math.floor(Math.random()*256);          // Random between 0-255
 var b = Math.floor(Math.random()*256);
       
-
   
 var resultColorR = 'rgb(' + r + ',' + 0 + ',' + 0 + ')';
 var resultColorG = 'rgb(' + 0 + ',' + g + ',' + 0 + ')';

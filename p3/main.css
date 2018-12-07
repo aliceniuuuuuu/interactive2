@@ -1,0 +1,18 @@
+body{
+	margin: 0; 
+	padding: 0;
+	width:200vw;
+	height:inherit;
+	overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #FFFAF5;
+}
+
+#myWorkContent{
+    width:530px;
+    height:210px;
+    border: 13px solid #bed5cd;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
