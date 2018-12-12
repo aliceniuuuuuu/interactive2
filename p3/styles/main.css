@@ -176,7 +176,7 @@ img.name{
 }
 
 .text{
-    width: 45vw;
+    width: 40vw;
     position: absolute;
     left: 15vw;
     top: 30vh;
@@ -392,9 +392,15 @@ img.name{
         display: inline;
     }
 
+    .pages{display: none;}
+
     .bigtype{
         width: 80vw;
         height: auto;
+    }
+
+    .text{
+        width: 65vw;
     }
 
     #title{
